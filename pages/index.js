@@ -1,6 +1,8 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Footer from "@components/Footer";
+import Header from "@components/Header";
+import Head from "next/head";
+import Image from "next/image";
+import mockCover from "../public/mock-cover.webp";
 
 export default function Home() {
   return (
@@ -15,9 +17,19 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+
+        <Image
+          src={mockCover}
+          alt="Building Browser Extensions by Matt Frisbie"
+          priority
+          layout="fill"
+          objectFit="contain"
+          // blurDataURL="data:..." automatically provided
+          placeholder="blur"
+        />
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
