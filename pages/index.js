@@ -18,15 +18,25 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
 
-        <Image
-          src={mockCover}
-          alt="Building Browser Extensions by Matt Frisbie"
-          priority
-          layout="fill"
-          objectFit="contain"
-          // blurDataURL="data:..." automatically provided
-          placeholder="blur"
-        />
+        <div className="flex flex-col gap-12">
+          <a
+            className="book-container"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <div className={`book`}>
+              <Image
+                src={mockCover}
+                alt="Building Browser Extensions by Matt Frisbie"
+                priority
+                layout="fill"
+                objectFit="contain"
+                // blurDataURL="data:..." automatically provided
+                placeholder="blur"
+              />
+            </div>
+          </a>
+        </div>
       </main>
 
       <Footer />
