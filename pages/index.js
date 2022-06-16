@@ -6,7 +6,10 @@ import mockCover from "../public/mock-cover-2.webp";
 export default function Home() {
   return (
     <>
-      <div className="container">
+      <div
+        style={{ minHeight: "100vh" }}
+        className="flex flex-col items-center"
+      >
         <Head>
           <title>Building Browser Extensions - Matt Frisbie</title>
           <link rel="icon" href="/favicon.ico" />
