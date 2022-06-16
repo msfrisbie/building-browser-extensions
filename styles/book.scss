@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     perspective: 600px;
+    min-height:450px;
   }
   
   @keyframes initAnimation {
@@ -18,21 +19,12 @@
   }
   
   .book {
-      &.video {
-          &,
-          & > :first-child,
-          &::after {
-              width: 250px;
-              height: 350px;
-          }
-      }
-  
       &.three-d {
           &,
           & > :first-child,
           &::after {
               width: 250px;
-              height: 300px;
+              height: 357px;
           }
   
           position: relative;
@@ -61,35 +53,6 @@
       }
   }
   
-  
-  
-  // .book.angular-cookbook {
-  //     &,
-  //     & > :first-child,
-  //     &::after {
-  //         width: 250px;
-  //         height: 300px;
-  //     }
-  
-  //     & > :first-child,
-  //     &::after {
-  //         background-color: #01060f;
-  //     }
-  
-  //     & > :first-child {
-  //         transform: translateZ(25px)
-  //     }
-  
-  //     &::after {
-  //         transform: translateZ(-25px)
-  //     }
-  
-  //     &::before {
-  //         width: 48px;
-  //         transform: translateX(222px) rotateY(90deg);
-  //     }
-  // }
-  
   .book.three-d:hover {
     transform: rotateY(0deg);
   }
@@ -109,7 +72,7 @@
     background-color: blue;
     left: 0;
     top: 3px;
-    height: 294px;
+    height: 353px;
     background: linear-gradient(90deg, 
       #fff 0%,
       #f9f9f9 5%,
