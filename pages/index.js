@@ -2,7 +2,7 @@ import Footer from "@components/Footer";
 import Header from "@components/Header";
 import Head from "next/head";
 import Image from "next/image";
-import mockCover from "../public/mock-cover.webp";
+import mockCover from "../public/mock-cover-2.webp";
 
 export default function Home() {
   return (
