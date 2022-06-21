@@ -7,12 +7,12 @@ export default function Boilerplate({ children }) {
       <Header
         title="Building Browser Extensions | Matt Frisbie"
         url="https://www.buildingbrowserextensions.com"
-        description="Matt Frisbie | Software Engineer, Bestselling Author"
+        description="The complete reference for building modern browser extensions in Chrome, Firefox, Edge, and Safari."
       ></Header>
 
       <Script
         strategy="lazyOnload"
-        src={"https://www.googletagmanager.com/gtag/js?id=G-0ETS0H9HMM"}
+        src={"https://www.googletagmanager.com/gtag/js?id=G-9CLE9BDYKQ"}
       />
 
       <Script strategy="lazyOnload">
@@ -20,7 +20,7 @@ export default function Boilerplate({ children }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-0ETS0H9HMM', {
+          gtag('config', 'G-9CLE9BDYKQ', {
           page_path: window.location.pathname,
           });
       `}
