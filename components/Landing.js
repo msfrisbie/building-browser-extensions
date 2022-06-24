@@ -9,10 +9,10 @@ export default function Landing() {
         style={{ minHeight: "100vh" }}
         className="flex flex-col items-center text-center p-6 md:p-12"
       >
-        <div className="pb-16 flex flex-col gap-8 max-w-xl">
+        <div className="py-16 flex flex-col gap-16 max-w-xl">
           <h1 className="text-3xl text-gray-700">
             <span className="text-blue-700 ">Everything you need </span>
-            to learn browser extensions.
+            to build browser extensions.
           </h1>
 
           <h2>
