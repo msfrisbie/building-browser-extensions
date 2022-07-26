@@ -4,6 +4,29 @@
 
 @import "book.scss";
 
+// $enable-caret:                true;
+// $enable-rounded:              true;
+// $enable-shadows:              false;
+// $enable-gradients:            false;
+// $enable-transitions:          true;
+// $enable-reduced-motion:       true;
+// $enable-smooth-scroll:        true;
+// $enable-grid-classes:         false;
+// $enable-container-classes:    false;
+// $enable-cssgrid:              false;
+// $enable-button-pointers:      true;
+// $enable-rfs:                  true;
+// $enable-validation-icons:     true;
+// $enable-negative-margins:     false;
+// $enable-deprecation-messages: true;
+$enable-important-utilities:  false;
+
+$h1-font-size: 1rem;
+$h2-font-size: 1rem;
+$headings-font-weight: 400;
+
+@import "bootstrap/scss/bootstrap";
+
 html,
 body {
   padding: 0;
