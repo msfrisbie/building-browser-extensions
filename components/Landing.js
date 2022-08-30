@@ -75,6 +75,7 @@ export default function Landing() {
                   className="d-block w-100"
                   src={promo2}
                   alt="Browser Extension Explorer - Modify extension toolbar icon button, context menu"
+                  priority
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -82,6 +83,7 @@ export default function Landing() {
                   className="d-block w-100"
                   src={promo3}
                   alt="Browser Extension Explorer - Extension messaging demo"
+                  priority
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -89,6 +91,7 @@ export default function Landing() {
                   className="d-block w-100"
                   src={promo4}
                   alt="Browser Extension Explorer - Devtools Traffic Monitor"
+                  priority
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -96,6 +99,7 @@ export default function Landing() {
                   className="d-block w-100"
                   src={promo5}
                   alt="Browser Extension Explorer - Declarative net request"
+                  priority
                 />
               </Carousel.Item>
             </Carousel>
