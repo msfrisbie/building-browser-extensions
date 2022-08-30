@@ -1,9 +1,21 @@
 import Image from "next/image";
+import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import browserExtensionExplorer from "../public/browser-extension-explorer.webp";
+import Carousel from "react-bootstrap/Carousel";
 import mockCover from "../public/mock-cover-2.webp";
+import promo1 from "../public/promo1.png";
+import promo2 from "../public/promo2.png";
+import promo3 from "../public/promo3.png";
+import promo4 from "../public/promo4.png";
+import promo5 from "../public/promo5.png";
 
 export default function Landing() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
   return (
     <>
       <div
@@ -43,18 +55,62 @@ export default function Landing() {
               />
             </div>
           </a>
-          <a
-            className="mt-24 md:mt-0 order-2 md:order-1 place-self-center shadow-lg"
-            href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <Image
+          <div className="mt-24 md:mt-0 order-2 md:order-1 place-self-center shadow-lg">
+            <Carousel
+              activeIndex={index}
+              onSelect={handleSelect}
+              interval={2500}
+              variant="dark"
+            >
+              <Carousel.Item>
+                <Image
+                  className="d-block w-100"
+                  src={promo1}
+                  alt="Browser Extension Explorer - Extension environment details, tab and window dashboard"
+                  priority
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image
+                  className="d-block w-100"
+                  src={promo2}
+                  alt="Browser Extension Explorer - Modify extension toolbar icon button, context menu"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image
+                  className="d-block w-100"
+                  src={promo3}
+                  alt="Browser Extension Explorer - Extension messaging demo"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image
+                  className="d-block w-100"
+                  src={promo4}
+                  alt="Browser Extension Explorer - Devtools Traffic Monitor"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image
+                  className="d-block w-100"
+                  src={promo5}
+                  alt="Browser Extension Explorer - Declarative net request"
+                />
+              </Carousel.Item>
+            </Carousel>
+            {/* <a
+              href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Image
               src={browserExtensionExplorer}
               alt="Browser Extension Explorer"
               priority
             />
-          </a>
+            </a> */}
+          </div>
           <h1 className="md:order-1 text-3xl text-orange-500 rounded p-4 w-full border border-orange-500">
             Building&nbsp;Browser<br></br>Extensions
           </h1>
