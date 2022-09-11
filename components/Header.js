@@ -28,7 +28,7 @@ export default function Header({ title, description, url }) {
         <meta
           key="twitter_image"
           name="twitter:image"
-          content="https://www.buildingbrowserextensions.com/mock-cover-2.jpg"
+          content="https://www.buildingbrowserextensions.com/bbx_cover.png"
         />
 
         {/* Open Graph data */}
@@ -38,7 +38,7 @@ export default function Header({ title, description, url }) {
         <meta
           key="og_image"
           property="og:image"
-          content="https://www.buildingbrowserextensions.com/mock-cover-2.jpg"
+          content="https://www.buildingbrowserextensions.com/bbx_cover.png"
         />
         <meta
           key="og_description"
