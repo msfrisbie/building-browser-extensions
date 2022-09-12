@@ -164,7 +164,10 @@ export default function Landing() {
           </div>
         </div>
         <div className="text-start max-w-xl flex flex-col gap-4">
-          <Card className="mt-12 p-8 text-white opacity-75" bg="primary">
+          <Card
+            className="mt-12 p-8 text-white opacity-75 shadow-2xl"
+            bg="primary"
+          >
             <h2 id="toc" className="text-center text-3xl font-light pb-8">
               Table of Contents
             </h2>
