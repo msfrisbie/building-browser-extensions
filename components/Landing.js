@@ -23,7 +23,7 @@ export default function Landing() {
           <div className="py-16 flex flex-col gap-16 max-w-xl">
             <h1 className="text-3xl text-gray-700">
               <span className="text-blue-700">Everything you need </span>
-              to build browser extensions.
+              to build&nbsp;browser&nbsp;extensions.
             </h1>
 
             <h2>
