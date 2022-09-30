@@ -1,36 +1,41 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 export default function CustomNavbar() {
   return (
     <>
-      <Navbar bg="light" expand="lg">
-        <Container style={{ minHeight: "inherit", flexDirection: "inherit" }}>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Navbar expand="md" fixed="top" className="bg-gray-900" variant="dark">
+        <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand href="/">
+            <h1 className="text-xl font-light mb-0">
+              Building Browser Extensions
+            </h1>
+          </Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
+            <Nav className="me-auto w-full justify-end sm:gap-8 ttt-purple-text-force">
+              <Nav.Link
+                href="https://www.amazon.com/dp/148428724X"
+                target="_blank"
+              >
+                BOOK
+              </Nav.Link>
+              <Nav.Link
+                href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"
+                target="_blank"
+              >
+                DEMO EXTENSION
+              </Nav.Link>
+              <Nav.Link href="https://mattfriz.com" target="_blank">
+                AUTHOR
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      {/* spacer for navbar at top */}
+      <div className="p-8"></div>
     </>
   );
 }

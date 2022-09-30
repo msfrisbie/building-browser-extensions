@@ -1,4 +1,5 @@
 import Script from "next/script";
+import CustomNavbar from "./CustomNavbar";
 import Header from "./Header";
 
 export default function Boilerplate({ children }) {
@@ -26,7 +27,7 @@ export default function Boilerplate({ children }) {
       `}
       </Script>
 
-      {/* <Navbar></Navbar> */}
+      <CustomNavbar></CustomNavbar>
 
       {children}
 

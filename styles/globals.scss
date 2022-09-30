@@ -1,64 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @import "book.scss";
 
-// $enable-caret:                true;
-// $enable-rounded:              true;
-// $enable-shadows:              false;
-// $enable-gradients:            false;
-// $enable-transitions:          true;
-// $enable-reduced-motion:       true;
-// $enable-smooth-scroll:        true;
-// $enable-grid-classes:         false;
-// $enable-container-classes:    false;
-// $enable-cssgrid:              false;
-// $enable-button-pointers:      true;
-// $enable-rfs:                  true;
-// $enable-validation-icons:     true;
-// $enable-negative-margins:     false;
-// $enable-deprecation-messages: true;
-$enable-important-utilities:  false;
-
-$h1-font-size: 1rem;
-$h2-font-size: 1rem;
-$headings-font-weight: 400;
-
-@import "bootstrap/scss/bootstrap";
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import "~bootstrap/scss/bootstrap";
 
 * {
-  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+// main {
+//   padding: 5rem 0;
+//   flex: 1;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
+// code {
+//   background: #fafafa;
+//   border-radius: 5px;
+//   padding: 0.75rem;
+//   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+// }
 
-.container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+// .container {
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
