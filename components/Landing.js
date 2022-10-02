@@ -5,7 +5,7 @@ import DemoExtension from "./DemoExtension";
 export default function Landing() {
   return (
     <>
-      <div class="flex flex-col items-stretch gap-16">
+      <div className="flex flex-col items-stretch gap-16">
         <Book></Book>
 
         <div className="flex flex-col items-center p-6 md:p-12 bg-blue-100 text-center">
