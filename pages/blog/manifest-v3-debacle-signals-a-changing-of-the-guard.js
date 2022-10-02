@@ -19,7 +19,7 @@ export default function BlogPost() {
             The updated version is hostile to extension developers and users,
             and this shared adversity may prove to be a powerful catalyst.
           </div>
-          <div className="text-sm text-gray-500">10/3/2022</div>
+          <div className="text-sm text-gray-500">10/2/2022</div>
           <hr></hr>
           <div>
             Following the initial manifest V3{" "}
