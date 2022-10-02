@@ -120,7 +120,7 @@ export default function BlogPost() {
             doing its job. With Mozilla's recent{" "}
             <a
               target="_blank"
-              href="https://www.ghacks.net/2022/09/24/mozilla-reaffirms-that-firefox-will-continue-to-support-current-content-blockers/"
+              href="https://blog.mozilla.org/addons/2021/05/27/manifest-v3-update/"
             >
               announcement
             </a>{" "}
