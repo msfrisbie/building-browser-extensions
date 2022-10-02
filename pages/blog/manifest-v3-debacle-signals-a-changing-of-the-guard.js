@@ -10,7 +10,7 @@ export default function BlogPost() {
         description="Manifest V3 is hostile both to extension developers and users, and
         this shared adversity may prove to be consequential."
       ></Header>
-      <div className="flex flex-col items-center p-16">
+      <div className="flex flex-col items-center p-6 md:p-16">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
           <div className="text-4xl">
             Manifest V3 Debacle Signals a Changing of the Guard
