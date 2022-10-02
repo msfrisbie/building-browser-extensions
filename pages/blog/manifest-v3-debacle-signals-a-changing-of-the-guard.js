@@ -7,9 +7,8 @@ export default function BlogPost() {
       <Header
         title="Manifest V3 Debacle Signals a Changing of the Guard | Matt Frisbie"
         url="https://www.buildingbrowserextensions.com/blog/manifest-v3-debacle-signals-a-changing-of-the-guard"
-        description="Manifest V3 is hostile both to extension developers
-        and browser users, and this shared adversity may prove to be
-        consequential."
+        description="Manifest V3 is hostile both to extension developers and users, and
+        this shared adversity may prove to be consequential."
       ></Header>
       <div className="flex flex-col items-center p-16">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
