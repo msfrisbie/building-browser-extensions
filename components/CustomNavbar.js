@@ -5,11 +5,20 @@ import Navbar from "react-bootstrap/Navbar";
 export default function CustomNavbar() {
   return (
     <>
-      <Navbar expand="md" fixed="top" className="bg-gray-900" variant="dark">
+      <Navbar
+        collapseOnSelect
+        expand="md"
+        fixed="top"
+        className="bg-gray-900"
+        variant="dark"
+      >
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Brand href="/">
-            <h1 className="text-xl font-light mb-0">
+            <h1
+              className="text-xl font-normal mb-0 mr-8"
+              style={{ color: "#fec322" }}
+            >
               Building Browser Extensions
             </h1>
           </Navbar.Brand>
@@ -25,7 +34,7 @@ export default function CustomNavbar() {
                 href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"
                 target="_blank"
               >
-                DEMO EXTENSION
+                DEMO&nbsp;EXTENSION
               </Nav.Link>
               <Nav.Link href="/blog">BLOG</Nav.Link>
               <Nav.Link href="https://mattfriz.com" target="_blank">
