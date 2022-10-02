@@ -27,6 +27,7 @@ export default function CustomNavbar() {
               >
                 DEMO EXTENSION
               </Nav.Link>
+              <Nav.Link href="/blog">BLOG</Nav.Link>
               <Nav.Link href="https://mattfriz.com" target="_blank">
                 AUTHOR
               </Nav.Link>
