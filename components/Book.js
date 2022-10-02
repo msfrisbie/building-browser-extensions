@@ -7,7 +7,7 @@ export default function Book() {
   return (
     <div className="flex flex-col items-center">
       <div className="flex flex-col items-center gap-8 md:gap-12 max-w-lg p-8 text-center">
-        <a className="book-container" target="_blank" rel="noreferrer noopener">
+        <a className="book-container" target="_blank" rel="noreferrer noopener" href="https://www.amazon.com/Building-Browser-Extensions-Create-Firefox/dp/148428724X">
           <div className={`book three-d`}>
             <Image
               src={bookCover}
