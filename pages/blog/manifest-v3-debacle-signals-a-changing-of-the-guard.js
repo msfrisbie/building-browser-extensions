@@ -114,10 +114,8 @@ export default function BlogPost() {
             >
               mouth
             </a>
-            , and some manifest V2 extensions are incompatible with manifest V3.
-            Nearly half of desktop browser users have ad blockers installed, and
-            ad-averse users will surely be quick to realize an ad blocker isn't
-            doing its job. With Mozilla's recent{" "}
+            . Advertising-averse users will be quick to notice the diminshed
+            efficacy of ad blockers. With Mozilla's recent{" "}
             <a
               target="_blank"
               href="https://blog.mozilla.org/addons/2021/05/27/manifest-v3-update/"
@@ -131,18 +129,18 @@ export default function BlogPost() {
             Meanwhile, the mobile extension landscape is shifting. In 2020,
             Apple{" "}
             <a target="_blank" href="https://support.apple.com/en-us/HT212788">
-              added
+              added support
             </a>{" "}
-            support for browser extensions in iOS Safari. Though developers may
-            balk at publishing browser extensions in the App Store, Apple is
-            advancing browser extensions by bringing them to the most popular
-            mobile browser. Chrome for Android does not support browser
-            extensions, and there is no indication it ever will.{" "}
+            for browser extensions in iOS Safari. Though developers may balk at
+            publishing browser extensions in the App Store, Apple is advancing
+            browser extensions by bringing them to the most popular mobile
+            browser. Chrome for Android does not support browser extensions, and
+            there is no indication it ever will.{" "}
           </div>
           <div>
-            Chrome remains the hegemon of the browser world, and it is difficult
+            Chrome remains the hegemon of the browser world, so it is difficult
             to imagine it being unseated. Internet Explorer once enjoyed a
-            similar dominant market share, and the speed of the exodus was
+            similar dominant market share, but the speed of the exodus was
             shockingly quick.
           </div>
           <hr></hr>
