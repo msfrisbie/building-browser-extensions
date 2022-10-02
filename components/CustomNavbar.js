@@ -16,7 +16,7 @@ export default function CustomNavbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Brand href="/">
             <h1
-              className="text-xl font-normal mb-0 mr-8"
+              className="text-xl font-normal mb-0 sm:mr-8 roboto-condensed"
               style={{ color: "#fec322" }}
             >
               Building Browser Extensions
