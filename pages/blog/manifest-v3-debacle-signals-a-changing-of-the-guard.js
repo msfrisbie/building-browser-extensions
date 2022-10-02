@@ -1,3 +1,4 @@
+import BlogFooter from "@components/BlogFooter";
 import Header from "@components/Header";
 
 export default function BlogPost() {
@@ -145,8 +146,11 @@ export default function BlogPost() {
             similar dominant market share, and the speed of the exodus was
             shockingly quick.
           </div>
+          <hr></hr>
         </div>
       </div>
+
+      <BlogFooter></BlogFooter>
     </>
   );
 }
