@@ -5,19 +5,19 @@ export default function BlogPost() {
   return (
     <>
       <Header
-        title="Manifest V3 Debacle Signals a Changing of the Guard | Matt Frisbie"
+        title="Chrome's Manifest V3 Push Signals Changing of the Guard | Matt Frisbie"
         url="https://www.buildingbrowserextensions.com/blog/manifest-v3-debacle-signals-a-changing-of-the-guard"
-        description="The updated version is hostile both to developers and users, and
-        this shared adversity may prove to be a powerful catalyst."
+        description=" The updated version is hostile to extension developers and users,
+        and this shared adversity may prove to be a powerful catalyst."
       ></Header>
       <div className="flex flex-col items-center p-6 md:p-16">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
           <div className="text-4xl">
-            Chrome's Manifest V3 Push Signals a Changing of the Guard
+            Chrome's Manifest V3 Push Signals Changing of the Guard
           </div>
           <div className="text-xl">
-            The updated version is hostile both to developers and users, and
-            this shared adversity may prove to be a powerful catalyst.
+            The updated version is hostile to extension developers and users,
+            and this shared adversity may prove to be a powerful catalyst.
           </div>
           <div className="text-sm text-gray-500">10/3/2022</div>
           <hr></hr>
@@ -54,14 +54,15 @@ export default function BlogPost() {
                 rel="noreferrer noopener"
                 href="https://bugs.chromium.org/p/chromium/issues/detail?id=1152255"
               >
-                cannot persist indefinitely without{" "}
-                <a
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  href="https://stackoverflow.com/questions/66618136/persistent-service-worker-in-chrome-extension/66618269#66618269"
-                >
-                  ugly hacks
-                </a>
+                cannot persist indefinitely
+              </a>{" "}
+              without{" "}
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://stackoverflow.com/questions/66618136/persistent-service-worker-in-chrome-extension/66618269#66618269"
+              >
+                ugly hacks
               </a>
               .{" "}
             </li>
