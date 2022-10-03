@@ -1,25 +1,29 @@
 import BlogFooter from "@components/BlogFooter";
 import Header from "@components/Header";
+import { useRouter } from "next/router";
+import { articles } from "../../consts/articles";
 
 export default function BlogPost() {
+  const router = useRouter();
+  const { slug } = router.query;
+
+  const article = articles.find((x) => x.slug === slug);
+
+  const title = `${article.title} | Matt Frisbie`;
+  const url = `https://www.buildingbrowserextensions.com/blog/${article.slug}`;
+
   return (
     <>
       <Header
-        title="Chrome's Manifest V3 Push Signals Changing of the Guard | Matt Frisbie"
-        url="https://www.buildingbrowserextensions.com/blog/manifest-v3-debacle-signals-a-changing-of-the-guard"
-        description=" The updated version is hostile to extension developers and users,
-        and this shared adversity may prove to be a powerful catalyst."
+        title={title}
+        url={url}
+        description={article.description}
       ></Header>
       <div className="flex flex-col items-center p-6 md:p-16">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
-          <div className="text-4xl">
-            Chrome's Manifest V3 Push Signals Changing of the Guard
-          </div>
-          <div className="text-xl">
-            The updated version is hostile to extension developers and users,
-            and this shared adversity may prove to be a powerful catalyst.
-          </div>
-          <div className="text-sm text-gray-500">10/2/2022</div>
+          <div className="text-4xl">{article.title}</div>
+          <div className="text-xl">{article.description}</div>
+          <div className="text-sm text-gray-500">{article.date}</div>
           <hr></hr>
           <div>
             Following the initial manifest V3{" "}
