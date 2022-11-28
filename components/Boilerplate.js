@@ -1,5 +1,6 @@
 import Script from "next/script";
 import CustomNavbar from "./CustomNavbar";
+import Footer from "./Footer";
 import Header from "./Header";
 
 export default function Boilerplate({ children }) {
@@ -31,9 +32,7 @@ export default function Boilerplate({ children }) {
 
       {children}
 
-      <footer className="flex flex-col items-center justify-center p-8 text-sm text-gray-300">
-        Copyright Matt Frisbie 2022
-      </footer>
+      <Footer></Footer>
     </>
   );
 }

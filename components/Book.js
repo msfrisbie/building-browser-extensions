@@ -33,7 +33,7 @@ export default function Book() {
             borderColor: "rgb(249 115 22)",
           }}
         >
-          AVAILABLE NOW
+          GET IT NOW
         </Button>{" "}
         <div className="text-xl">
           The complete reference for building modern browser extensions in

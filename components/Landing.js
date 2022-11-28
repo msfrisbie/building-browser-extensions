@@ -7,7 +7,7 @@ import DemoExtension from "./DemoExtension";
 export default function Landing() {
   return (
     <>
-      <div className="flex flex-col items-stretch gap-16">
+      <div className="flex flex-col items-stretch gap-16 w-full">
         <Book></Book>
 
         <div className="flex flex-col items-center p-6 md:p-12 bg-blue-100 text-center">
@@ -54,21 +54,22 @@ export default function Landing() {
                 />
               </div>
 
-              <h2 class="font-extrabold text-violet-12 text-2xl md:text-4xl">
-                The easiest way to <span class="text-violet-500">Build</span>,{" "}
-                <span class="text-violet-500">Test</span>, and{" "}
-                <span class="text-violet-500">Ship</span>
+              <h2 className="font-extrabold text-violet-12 text-2xl md:text-4xl">
+                The easiest way to{" "}
+                <span className="text-violet-500">Build</span>,{" "}
+                <span className="text-violet-500">Test</span>, and{" "}
+                <span className="text-violet-500">Ship</span>
                 <br /> browser extensions
               </h2>
 
               <a
-                class="text-2xl font-medium no-underline"
+                className="text-2xl font-medium no-underline"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://plasmo.com"
               >
                 <button
-                  class="px-8 py-2 text-white bg-violet-700 hover:bg-violet-500 rounded-md"
+                  className="px-8 py-2 text-white bg-violet-700 hover:bg-violet-500 rounded-md"
                   style={{ transition: "background-color 0.3s ease-in-out" }}
                 >
                   Get Started
