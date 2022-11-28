@@ -53,7 +53,7 @@ export default function Footer() {
           </a>
           <a
             className="text-gray-300 no-underline hover:text-gray-500"
-            href="/chrome-extension-tutorial 2023"
+            href="/chrome-extension-tutorial-2023"
           >
             Chrome extension tutorial 2023
           </a>
