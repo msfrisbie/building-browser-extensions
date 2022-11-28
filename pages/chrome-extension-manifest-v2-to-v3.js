@@ -13,8 +13,8 @@ export default function ChromeExtensionTutorial2023() {
       <div className="flex flex-col items-center pt-12">
         <h1 className="text-center text-gray-700">
           The <span className="underline text-orange-500">best</span> way to
-          learn <br></br>how to how to migrate Chrome extensions from manifest
-          v2 to manifest v3
+          learn <br></br>how to how to migrate Chrome extensions<br></br> from
+          manifest v2 to manifest v3
         </h1>
         <Landing />
       </div>
