@@ -1,3 +1,4 @@
+import { AMAZON_KINDLE_URL } from "consts";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -24,10 +25,7 @@ export default function CustomNavbar() {
           </Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto w-full justify-end sm:gap-8 ttt-purple-text-force">
-              <Nav.Link
-                href="https://www.amazon.com/dp/148428724X"
-                target="_blank"
-              >
+              <Nav.Link href={AMAZON_KINDLE_URL} target="_blank">
                 BOOK
               </Nav.Link>
               <Nav.Link

@@ -1,3 +1,4 @@
+import { AMAZON_KINDLE_URL } from "consts";
 import Image from "next/image";
 import bookCover from "../public/bbx_cover.png";
 
@@ -10,7 +11,7 @@ export default function BlogFooter() {
             className="book-container"
             target="_blank"
             rel="noreferrer noopener"
-            href="https://www.amazon.com/Building-Browser-Extensions-Create-Firefox/dp/148428724X"
+            href={AMAZON_KINDLE_URL}
           >
             <div className={`book three-d`}>
               <Image

@@ -1,3 +1,4 @@
+import { AMAZON_KINDLE_URL } from "consts";
 import Image from "next/image";
 import React from "react";
 import { Button } from "react-bootstrap";
@@ -11,7 +12,7 @@ export default function Book() {
           className="book-container"
           target="_blank"
           rel="noreferrer noopener"
-          href="https://www.amazon.com/Building-Browser-Extensions-Create-Firefox/dp/148428724X"
+          href={AMAZON_KINDLE_URL}
         >
           <div className={`book three-d`}>
             <Image
@@ -25,7 +26,7 @@ export default function Book() {
           </div>
         </a>
         <Button
-          href="https://www.amazon.com/Building-Browser-Extensions-Create-Firefox/dp/148428724X"
+          href={AMAZON_KINDLE_URL}
           target="_blank"
           rel="noreferrer noopener"
           style={{
