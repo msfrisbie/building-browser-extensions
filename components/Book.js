@@ -29,6 +29,8 @@ export default function Book() {
           href={AMAZON_KINDLE_URL}
           target="_blank"
           rel="noreferrer noopener"
+          className="drop-shadow-lg"
+          size="lg"
           style={{
             backgroundColor: "rgb(249 115 22)",
             borderColor: "rgb(249 115 22)",
