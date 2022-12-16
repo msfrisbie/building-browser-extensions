@@ -63,6 +63,42 @@ export default function Footer() {
           >
             Migrate Chrome extension from manifest v2 to v3
           </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/build-chrome-extension-with-react"
+          >
+            Build a Chrome extension with React
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/chrome-extension-book"
+          >
+            Chrome extension book
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/chrome-extension-development-book"
+          >
+            Chrome extension development book
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/how-to-build-chrome-extensions"
+          >
+            How to build Chrome extensions
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/how-to-build-a-chrome-extension"
+          >
+            How to build a Chrome extension
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/how-to-publish-chrome-extensions"
+          >
+            How to publish Chrome extensions
+          </a>
         </div>
       </footer>
     </>

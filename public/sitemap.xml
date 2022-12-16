@@ -36,4 +36,22 @@
     <url>
         <loc>https://www.buildingbrowserextensions.com/chrome-extension-manifest-v2-to-v3</loc>
     </url>
+    <url>
+        <loc>https://www.buildingbrowserextensions.com/build-chrome-extension-with-react</loc>
+    </url>
+    <url>
+        <loc>https://www.buildingbrowserextensions.com/chrome-extension-book</loc>
+    </url>
+    <url>
+        <loc>https://www.buildingbrowserextensions.com/chrome-extension-development-book</loc>
+    </url>
+    <url>
+        <loc>https://www.buildingbrowserextensions.com/how-to-build-chrome-extensions</loc>
+    </url>
+    <url>
+        <loc>https://www.buildingbrowserextensions.com/how-to-build-a-chrome-extension</loc>
+    </url>
+    <url>
+        <loc>https://www.buildingbrowserextensions.com/how-to-publish-chrome-extensions</loc>
+    </url>
 </urlset>

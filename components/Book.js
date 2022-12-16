@@ -3,37 +3,49 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "react-bootstrap";
 import bookCover from "../public/bbx_cover.png";
+import reviews from "../public/reviews.png";
 
 export default function Book() {
   return (
     <div className="flex flex-col items-center">
       <div className="flex flex-col items-center gap-8 md:gap-12 max-w-lg p-8 text-center">
-        <a
-          className="book-container"
-          target="_blank"
-          rel="noreferrer noopener"
-          href={AMAZON_KINDLE_URL}
-        >
-          <div className={`book three-d`}>
+        <div>
+          <a
+            className="book-container"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={AMAZON_KINDLE_URL}
+          >
+            <div className={`book three-d`}>
+              <Image
+                src={bookCover}
+                alt="Building Browser Extensions by Matt Frisbie"
+                priority
+                layout="fill"
+                objectFit="contain"
+                placeholder="blur"
+              />
+            </div>
+          </a>
+          <div className="w-full">
             <Image
-              src={bookCover}
-              alt="Building Browser Extensions by Matt Frisbie"
-              priority
-              layout="fill"
+              style={{ "z-index": "-1" }}
+              src={reviews}
+              alt="☆☆☆☆☆"
               objectFit="contain"
               placeholder="blur"
             />
           </div>
-        </a>
+        </div>
         <Button
           href={AMAZON_KINDLE_URL}
           target="_blank"
           rel="noreferrer noopener"
-          className="drop-shadow-lg"
+          className="drop-shadow-lg opacity-100 hover:opacity-75 hover:drop-shadow-xl"
           size="lg"
           style={{
-            backgroundColor: "rgb(249 115 22)",
-            borderColor: "rgb(249 115 22)",
+            backgroundColor: "rgb(48 201 65)",
+            borderColor: "rgb(48 201 65)",
           }}
         >
           GET IT NOW

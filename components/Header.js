@@ -1,6 +1,17 @@
 import Head from "next/head";
 
 export default function Header({ title, description, url }) {
+  let paddedDescription = description;
+
+  if (paddedDescription.length < 100) {
+    if (description[description.length - 1] !== ".") {
+      paddedDescription += ".";
+    }
+
+    paddedDescription +=
+      " Building Browser Extensions is the definitive guide for how to build and publish modern Chrome extensions using the latest frameworks and tools.";
+  }
+
   return (
     <>
       <Head>
@@ -8,7 +19,11 @@ export default function Header({ title, description, url }) {
 
         <link key="canonical" rel="canonical" href={url} />
 
-        <meta key="description" name="description" content={description} />
+        <meta
+          key="description"
+          name="description"
+          content={paddedDescription}
+        />
 
         {/* Twitter Card data */}
         <meta key="twitter_card" name="twitter:card" content="summary" />
@@ -17,7 +32,7 @@ export default function Header({ title, description, url }) {
         <meta
           key="twitter_description"
           name="twitter:description"
-          content={description}
+          content={paddedDescription}
         />
         <meta
           key="twitter_creator"
@@ -43,7 +58,7 @@ export default function Header({ title, description, url }) {
         <meta
           key="og_description"
           property="og:description"
-          content={description}
+          content={paddedDescription}
         />
         <meta
           key="og_sitename"
