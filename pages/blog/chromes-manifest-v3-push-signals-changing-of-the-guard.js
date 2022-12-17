@@ -1,4 +1,5 @@
 import BlogFooter from "@components/BlogFooter";
+import Book from "@components/Book";
 import Header from "@components/Header";
 
 export default function BlogPost() {
@@ -169,7 +170,7 @@ export default function BlogPost() {
         </div>
       </div>
 
-      <BlogFooter></BlogFooter>
+      <Book></Book>
     </>
   );
 }

@@ -29,7 +29,7 @@ export default function Book() {
           </a>
           <div className="w-full">
             <Image
-              style={{ "z-index": "-1" }}
+              style={{ zIndex: "-1" }}
               src={reviews}
               alt="☆☆☆☆☆"
               objectFit="contain"
