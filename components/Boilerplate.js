@@ -7,7 +7,7 @@ export default function Boilerplate({ children }) {
   return (
     <>
       <Header
-        title="Building Browser Extensions | Matt Frisbie"
+        title="The ultimate Chrome extension book | Building Browser Extensions"
         url="https://www.buildingbrowserextensions.com"
         description="The complete reference for building modern browser extensions in Chrome, Firefox, Edge, and Safari."
       ></Header>

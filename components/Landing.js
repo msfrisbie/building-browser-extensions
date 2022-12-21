@@ -10,14 +10,8 @@ export default function Landing() {
       <div className="flex flex-col items-stretch gap-16 w-full">
         <Book></Book>
 
-
         <div className="flex flex-col items-center p-6 md:p-12 bg-blue-100 text-center">
           <div className="text-xl text-gray-700 flex flex-col gap-8 max-w-lg">
-            <div className="text-3xl text-gray-700">
-              <span className="text-blue-700">Everything you need </span>
-              to build&nbsp;browser&nbsp;extensions.
-            </div>
-
             <div>
               Dive right in with{" "}
               <span className="text-green-600">
@@ -36,10 +30,6 @@ export default function Landing() {
             </div>
           </div>
         </div>
-
-        {/* <div className="py-16 flex flex-col gap-16 max-w-xl">
-          <h1>Building Browser Extensions</h1>
-        </div> */}
 
         <DemoExtension></DemoExtension>
 

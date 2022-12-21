@@ -16,17 +16,22 @@ export default function CustomNavbar() {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Brand href="/">
-            <h1
+            <span
               className="text-xl font-normal mb-0 sm:mr-8 roboto-condensed"
               style={{ color: "#fec322" }}
             >
               Building Browser Extensions
-            </h1>
+            </span>
           </Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto w-full justify-end sm:gap-8 ttt-purple-text-force">
-              <Nav.Link href={AMAZON_KINDLE_URL} target="_blank">
-                BOOK
+              <Nav.Link
+                href={AMAZON_KINDLE_URL}
+                target="_blank"
+                className="rounded-lg hover:opacity-90 px-3"
+                style={{ backgroundColor: "#fec322", color: "#333333" }}
+              >
+                GET&nbsp;THE&nbsp;BOOK
               </Nav.Link>
               <Nav.Link
                 href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"

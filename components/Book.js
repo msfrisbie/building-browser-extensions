@@ -8,7 +8,7 @@ import reviews from "../public/reviews.png";
 export default function Book() {
   return (
     <div className="flex flex-col items-center">
-      <div className="flex flex-col items-center gap-8 md:gap-12 max-w-lg p-8 text-center">
+      <div className="flex flex-col items-center gap-8 md:gap-12 max-w-lg px-8 text-center">
         <div>
           <a
             className="book-container"

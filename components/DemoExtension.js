@@ -17,7 +17,7 @@ export default function DemoExtension() {
   return (
     <div className="flex flex-col items-center">
       <div className="flex flex-col items-center gap-4 md:gap-12 max-w-lg p-8 text-center">
-        <div className="mt-24 md:mt-0 place-self-center shadow-lg">
+        <div className="place-self-center shadow-lg">
           <Carousel
             activeIndex={index}
             onSelect={handleSelect}
