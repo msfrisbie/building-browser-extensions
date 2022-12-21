@@ -1,4 +1,3 @@
-import BlogFooter from "@components/BlogFooter";
 import Book from "@components/Book";
 import Header from "@components/Header";
 

@@ -28,7 +28,7 @@ export default function DemoExtension() {
               <Image
                 className="d-block w-100"
                 src={promo1}
-                alt="Browser Extension Explorer - Extension environment details, tab and window dashboard"
+                alt="Example Chrome Extension - Extension environment details, tab and window dashboard"
                 priority
               />
             </Carousel.Item>
@@ -36,7 +36,7 @@ export default function DemoExtension() {
               <Image
                 className="d-block w-100"
                 src={promo2}
-                alt="Browser Extension Explorer - Modify extension toolbar icon button, context menu"
+                alt="Example Chrome Extension - Modify extension toolbar icon button, context menu"
                 priority
               />
             </Carousel.Item>
@@ -44,7 +44,7 @@ export default function DemoExtension() {
               <Image
                 className="d-block w-100"
                 src={promo3}
-                alt="Browser Extension Explorer - Extension messaging demo"
+                alt="Example Chrome Extension - Extension messaging demo"
                 priority
               />
             </Carousel.Item>
@@ -52,7 +52,7 @@ export default function DemoExtension() {
               <Image
                 className="d-block w-100"
                 src={promo4}
-                alt="Browser Extension Explorer - Devtools Traffic Monitor"
+                alt="Example Chrome Extension - Devtools Traffic Monitor"
                 priority
               />
             </Carousel.Item>
@@ -60,14 +60,14 @@ export default function DemoExtension() {
               <Image
                 className="d-block w-100"
                 src={promo5}
-                alt="Browser Extension Explorer - Declarative net request"
+                alt="Example Chrome Extension - Declarative net request"
                 priority
               />
             </Carousel.Item>
           </Carousel>
         </div>
         <h1 className="text-3xl bg-white text-blue-500 rounded p-4 w-full border border-blue-500">
-          Browser Extension<br></br>Explorer
+          Example Chrome Extension
         </h1>
         <Button
           href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"

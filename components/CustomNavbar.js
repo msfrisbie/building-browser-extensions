@@ -32,7 +32,7 @@ export default function CustomNavbar() {
                 href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"
                 target="_blank"
               >
-                DEMO&nbsp;EXTENSION
+                EXAMPLE&nbsp;CHROME&nbsp;EXTENSION
               </Nav.Link>
               <Nav.Link href="/blog">BLOG</Nav.Link>
               <Nav.Link href="https://mattfriz.com" target="_blank">
