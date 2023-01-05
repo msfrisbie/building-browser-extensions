@@ -22,6 +22,21 @@ export default function BlogPostCards() {
             </Card>
           </Link>
 
+          <Link href="/blog/cambrian-explosion-of-chatgpt-browser-extensions">
+            <Card bg="dark" className="cursor-pointer opacity-75 text-white">
+              <Card.Header className="text-xl font-normal roboto-condensed">
+                The Cambrian Explosion of ChatGPT Extensions
+              </Card.Header>
+              <Card.Body>
+                Browser extensions and large language models just might be the
+                perfect match.
+              </Card.Body>
+              <Card.Footer className="flex flex-row justify-center">
+                <Button variant="warning">READ</Button>
+              </Card.Footer>
+            </Card>
+          </Link>
+
           <Link href="/blog/what-is-manifest-v3">
             <Card bg="dark" className="cursor-pointer opacity-75 text-white">
               <Card.Header className="text-xl font-normal roboto-condensed">
@@ -51,19 +66,19 @@ export default function BlogPostCards() {
             </Card>
           </Link>
 
-            <Link href="/blog/why-are-browser-extensions-important">
+          <Link href="/blog/why-are-browser-extensions-important">
             <Card bg="dark" className="cursor-pointer opacity-75 text-white">
-                <Card.Header className="text-xl font-normal roboto-condensed">
+              <Card.Header className="text-xl font-normal roboto-condensed">
                 Why are Browser Extensions Important?
-                </Card.Header>
-                <Card.Body>
+              </Card.Header>
+              <Card.Body>
                 These special pieces of software are sneaky powerhouses.
-                </Card.Body>
-                <Card.Footer className="flex flex-row justify-center">
+              </Card.Body>
+              <Card.Footer className="flex flex-row justify-center">
                 <Button variant="warning">READ</Button>
-                </Card.Footer>
+              </Card.Footer>
             </Card>
-            </Link>
+          </Link>
         </div>
       </div>
     </>
