@@ -10,15 +10,9 @@ module.exports = {
       {
         source: "/plasmo",
         destination:
-          "https://www.amazon.com/Building-Browser-Extensions-Create-Firefox-ebook/dp/B0BN578YT5?maas=maas_adg_AECE9B779D87C877C40E4C14AE7D3493_afap_abs&ref_=aa_maas&tag=maas",
+          "https://www.amazon.com/Building-Browser-Extensions-Create-Firefox/dp/148428724X/?maas=maas_adg_DD6BEC882C2389AFF44D0C6394CF29E8_afap_abs&ref_=aa_maas&tag=maas",
         permanent: false,
       },
-      // {
-      //   source: "/blog",
-      //   destination:
-      //     "/blog/chromes-manifest-v3-push-signals-changing-of-the-guard",
-      //   permanent: false,
-      // },
       {
         source: "/blog/manifest-v3-debacle-signals-a-changing-of-the-guard",
         destination:

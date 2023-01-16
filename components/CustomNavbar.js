@@ -1,4 +1,4 @@
-import { AMAZON_KINDLE_URL } from "consts";
+import { AMAZON_PAPERBACK_URL } from "consts";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -26,7 +26,7 @@ export default function CustomNavbar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto w-full justify-end sm:gap-8 ttt-purple-text-force">
               <Nav.Link
-                href={AMAZON_KINDLE_URL}
+                href={AMAZON_PAPERBACK_URL}
                 target="_blank"
                 className="rounded-lg hover:opacity-90 px-3"
                 style={{ backgroundColor: "#fec322", color: "#333333" }}

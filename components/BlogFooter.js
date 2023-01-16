@@ -1,4 +1,4 @@
-import { AMAZON_KINDLE_URL } from "consts";
+import { AMAZON_PAPERBACK_URL } from "consts";
 import Image from "next/image";
 import bookCover from "../public/bbx_cover.png";
 
@@ -11,7 +11,7 @@ export default function BlogFooter() {
             className="book-container"
             target="_blank"
             rel="noreferrer noopener"
-            href={AMAZON_KINDLE_URL}
+            href={AMAZON_PAPERBACK_URL}
           >
             <div className={`book three-d`}>
               <Image

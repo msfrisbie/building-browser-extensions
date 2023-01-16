@@ -1,4 +1,4 @@
-import { AMAZON_KINDLE_URL } from "consts";
+import { AMAZON_PAPERBACK_URL } from "consts";
 import Image from "next/image";
 import React from "react";
 import { Button } from "react-bootstrap";
@@ -14,7 +14,7 @@ export default function Book() {
             className="book-container"
             target="_blank"
             rel="noreferrer noopener"
-            href={AMAZON_KINDLE_URL}
+            href={AMAZON_PAPERBACK_URL}
           >
             <div className={`book three-d`}>
               <Image
@@ -38,7 +38,7 @@ export default function Book() {
           </div>
         </div>
         <Button
-          href={AMAZON_KINDLE_URL}
+          href={AMAZON_PAPERBACK_URL}
           target="_blank"
           rel="noreferrer noopener"
           className="drop-shadow-lg opacity-100 hover:opacity-75 hover:drop-shadow-xl"
