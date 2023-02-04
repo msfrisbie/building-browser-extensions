@@ -32,10 +32,16 @@ export default function Landing(props) {
           </div>
         </div> */}
 
-        <div className="w-full text-lg">
-          <div className="flex flex-col items-center text-start p-6 md:p-12 font-light">
+        <div className="w-full text-lg pb-16">
+          <div className="flex flex-col items-center text-start font-light">
             <div className="flex flex-col gap-16 max-w-xl">
-              <div>Why </div>
+              <div className="flex flex-col items-center pt-12">
+                <h2 className="text-3xl text-gray-700 text-center max-w-xl">
+                  Chrome extensions are{" "}
+                  <span className=" text-orange-500">everywhere</span>.
+                </h2>
+              </div>
+
               <ul className="list-disc flex flex-col gap-4">
                 <li>
                   On average,{" "}
@@ -64,47 +70,10 @@ export default function Landing(props) {
             </div>
           </div>
         </div>
-
-        <div className="plasmo">
-          <div className="flex flex-col items-center p-6 md:p-12">
-            <div className="flex flex-col items-center max-w-2xl gap-8 text-center">
-              <div className="w-48">
-                <Image
-                  src={plasmo}
-                  alt="Plasmo"
-                  objectFit="contain"
-                  placeholder="blur"
-                />
-              </div>
-
-              <h2 className="font-extrabold text-violet-12 text-2xl md:text-4xl">
-                The easiest way to{" "}
-                <span className="text-violet-500">Build</span>,{" "}
-                <span className="text-violet-500">Test</span>, and{" "}
-                <span className="text-violet-500">Ship</span>
-                <br /> browser extensions
-              </h2>
-
-              <a
-                className="text-2xl font-medium no-underline"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://plasmo.com"
-              >
-                <button
-                  className="px-8 py-2 text-white bg-violet-700 hover:bg-violet-500 rounded-md"
-                  style={{ transition: "background-color 0.3s ease-in-out" }}
-                >
-                  Get Started
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
       {/* </div> */}
 
-      <div className="w-full text-lg">
+      {/* <div className="w-full text-lg">
         <div className="flex flex-col items-center text-start p-6 md:p-12 font-light">
           <div className="flex flex-col gap-6 max-w-xl">
             <a
@@ -143,7 +112,7 @@ export default function Landing(props) {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="bg-blue-100 w-full text-lg">
         <div className="flex flex-col items-center text-start p-6 md:p-12 font-light">
@@ -151,7 +120,7 @@ export default function Landing(props) {
             <a
               href="#toc"
               id="toc"
-              className="text-center text-4xl font-thin pb-8 no-underline"
+              className="text-center text-4xl font-thin p-8 no-underline"
             >
               Table of Contents
             </a>
@@ -286,7 +255,45 @@ export default function Landing(props) {
         </div>
       </div>
 
-      <DemoExtension></DemoExtension>
+      <div className="pt-16">
+        <DemoExtension></DemoExtension>
+      </div>
+
+      <div className="plasmo">
+        <div className="flex flex-col items-center p-6 md:p-12">
+          <div className="flex flex-col items-center max-w-2xl gap-8 text-center">
+            <div className="w-48">
+              <Image
+                src={plasmo}
+                alt="Plasmo"
+                objectFit="contain"
+                placeholder="blur"
+              />
+            </div>
+
+            <h2 className="font-extrabold text-violet-12 text-2xl md:text-4xl">
+              The easiest way to <span className="text-violet-500">Build</span>,{" "}
+              <span className="text-violet-500">Test</span>, and{" "}
+              <span className="text-violet-500">Ship</span>
+              <br /> browser extensions
+            </h2>
+
+            <a
+              className="text-2xl font-medium no-underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://plasmo.com"
+            >
+              <button
+                className="px-8 py-2 text-white bg-violet-700 hover:bg-violet-500 rounded-md"
+                style={{ transition: "background-color 0.3s ease-in-out" }}
+              >
+                Get Started
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

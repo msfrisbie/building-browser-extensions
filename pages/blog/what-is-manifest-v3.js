@@ -10,7 +10,7 @@ export default function BlogPost() {
         description="Understand the implications of this seismic shift in how
         browser extensions are built."
       ></Header>
-      <div className="flex flex-col items-center p-6 md:p-16">
+      <div className="flex flex-col items-center p-6 py-24 md:py-32">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
           <div className="text-4xl">What is Manifest V3?</div>
           <div className="text-xl">

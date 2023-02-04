@@ -6,7 +6,7 @@ export default function Footer() {
           "flex flex-col items-center justify-center p-8 text-sm text-gray-300 flex flex-col gap-4"
         }
       >
-        <span>Copyright Matt Frisbie 2022</span>
+        <span>Copyright Matt Frisbie 2023</span>
 
         <div className="flex flex-col items-center justify-center gap-2 text-xs">
           <a

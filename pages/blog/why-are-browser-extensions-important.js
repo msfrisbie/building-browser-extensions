@@ -9,7 +9,7 @@ export default function BlogPost() {
         url="https://www.buildingbrowserextensions.com/blog/why-are-browser-extensions-important"
         description="These special pieces of software are sneaky powerhouses."
       ></Header>
-      <div className="flex flex-col items-center p-6 md:p-16">
+      <div className="flex flex-col items-center p-6 py-24 md:py-32">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
           <div className="text-4xl">Why are Browser Extensions Important?</div>
           <div className="text-xl">

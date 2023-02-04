@@ -10,7 +10,8 @@ export default function BlogPost() {
         description=" The updated version is hostile to extension developers and users,
         and this shared adversity may prove to be a powerful catalyst."
       ></Header>
-      <div className="flex flex-col items-center p-6 md:p-16">
+
+      <div className="flex flex-col items-center p-6 py-24 md:py-32">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
           <div className="text-4xl">
             Chrome's Manifest V3 Push Signals Changing of the Guard

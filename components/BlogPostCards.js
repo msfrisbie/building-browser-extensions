@@ -4,7 +4,7 @@ import { Button, Card } from "react-bootstrap";
 export default function BlogPostCards() {
   return (
     <>
-      <div className="flex flex-col items-center p-6 md:p-16">
+      <div className="flex flex-col items-center py-24 md:py-36 px-6">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
           <Link href="/blog/manifest-v3-debacle-signals-a-changing-of-the-guard">
             <Card className="cursor-pointer">
@@ -75,7 +75,7 @@ export default function BlogPostCards() {
             </Card>
           </Link>
 
-          <Link href="/blog/react-chrome-extension-tutorial">
+          {/* <Link href="/blog/react-chrome-extension-tutorial">
             <Card className="cursor-pointer">
               <Card.Header className="text-xl font-normal roboto-condensed">
                 React Chrome Extension Tutorial
@@ -89,7 +89,7 @@ export default function BlogPostCards() {
                 </div>
               </Card.Body>
             </Card>
-          </Link>
+          </Link> */}
 
           <Link href="/blog/why-are-browser-extensions-important">
             <Card className="cursor-pointer">

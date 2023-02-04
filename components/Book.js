@@ -8,10 +8,10 @@ import reviews from "../public/reviews.png";
 export default function Book() {
   return (
     <div className="flex flex-col items-center">
-      <div className="flex flex-row gap-12 items-center px-8 text-center">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-12 items-center px-4 md:px-8 py-12 text-center">
         <div>
           <a
-            className="book-container"
+            className="book-container scale-50 -my-24 md:scale-95"
             target="_blank"
             rel="noreferrer noopener"
             href={AMAZON_PAPERBACK_URL}
@@ -28,7 +28,9 @@ export default function Book() {
             </div>
           </a>
 
-          <div className="max-w-xs" style={{ marginTop: "-1rem" }}>
+          {/* Margin/padding here is a hack since 
+          responsive negative margins doesnt seem to work */}
+          <div className="max-w-xs md:max-w-md -mt-32 md:pt-24">
             <Image
               style={{ zIndex: "-1" }}
               src={reviews}
@@ -38,24 +40,24 @@ export default function Book() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-8 items-center">
-          <div className="flex flex-col items-center pt-12">
-            <h1 className="text-6xl text-gray-700 text-center">
+        <div className="flex flex-col gap-4 md:gap-8 items-center">
+          <div className="flex flex-col items-center">
+            <h1 className="text-3xl md:text-6xl text-gray-700 text-center max-w-xl mb-0">
               The <span className=" text-orange-500">ultimate</span> <br></br>
               Chrome extension tutorial
             </h1>
           </div>
 
-          <div className="text-2xl text-gray-500">
-            Learn how to build modern Chrome extensions in 2023 <br></br>with
-            in-depth examples and detailed tutorials.
+          <div className="text-md md:text-2xl text-gray-500 max-w-xl">
+            Building Browser Extensions show you how to build modern Chrome
+            extensions in 2023 with in-depth examples and detailed tutorials.
           </div>
 
           <Button
             href={AMAZON_PAPERBACK_URL}
             target="_blank"
             rel="noreferrer noopener"
-            className="drop-shadow-lg opacity-100 hover:opacity-75 hover:drop-shadow-xl mt-4"
+            className="drop-shadow-lg opacity-100 hover:opacity-75 hover:drop-shadow-xl md:mt-4"
             size="lg"
             style={{
               backgroundColor: "rgb(48 201 65)",

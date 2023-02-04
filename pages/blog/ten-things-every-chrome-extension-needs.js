@@ -20,7 +20,7 @@ export default function BlogPost() {
         url={"https://www.buildingbrowserextensions.com/blog/" + slug}
         description={subtitle}
       ></Header>
-      <div className="flex flex-col items-center p-6 md:p-16">
+      <div className="flex flex-col items-center p-6 py-24 md:py-32">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
           <div className="text-4xl">{title}</div>
           <div className="text-xl text-gray-800">{subtitle}</div>
