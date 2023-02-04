@@ -11,7 +11,7 @@ export default function BlogPost() {
       ></Header>
       <div className="flex flex-col items-center p-6 py-24 md:py-32">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
-          <div className="text-4xl">Why are Browser Extensions Important?</div>
+          <h1 className="text-4xl">Why are Browser Extensions Important?</h1>
           <div className="text-xl">
             These special pieces of software are sneaky powerhouses.
           </div>
@@ -66,7 +66,7 @@ export default function BlogPost() {
         </div>
       </div>
 
-      <Book></Book>
+      <Book h2={true}></Book>
     </>
   );
 }

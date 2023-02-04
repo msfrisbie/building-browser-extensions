@@ -22,7 +22,7 @@ export default function BlogPost() {
       ></Header>
       <div className="flex flex-col items-center p-6 py-24 md:py-32">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
-          <div className="text-4xl">{title}</div>
+          <h1 className="text-4xl">{title}</h1>
           <div className="text-xl text-gray-800">{subtitle}</div>
           <div className="text-sm text-gray-500">1/7/2023</div>
           <hr></hr>
@@ -244,7 +244,7 @@ export default function BlogPost() {
         </div>
       </div>
 
-      <Book></Book>
+      <Book h2={true}></Book>
     </>
   );
 }

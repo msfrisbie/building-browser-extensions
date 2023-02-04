@@ -5,7 +5,23 @@ import { Button } from "react-bootstrap";
 import bookCover from "../public/bbx_cover.png";
 import reviews from "../public/reviews.png";
 
-export default function Book() {
+export default function Book(props) {
+  let header = (
+    <h1 className="text-3xl md:text-6xl text-gray-700 text-center max-w-xl mb-0">
+      The <span className=" text-orange-500">ultimate</span> <br></br>
+      Chrome extension tutorial
+    </h1>
+  );
+
+  if (props.h2) {
+    header = (
+      <h2 className="text-3xl md:text-6xl text-gray-700 text-center max-w-xl mb-0">
+        The <span className=" text-orange-500">ultimate</span> <br></br>
+        Chrome extension tutorial
+      </h2>
+    );
+  }
+
   return (
     <div className="flex flex-col items-center">
       <div className="flex flex-col md:flex-row gap-4 md:gap-12 items-center px-4 md:px-8 py-12 text-center">
@@ -41,12 +57,7 @@ export default function Book() {
           </div>
         </div>
         <div className="flex flex-col gap-4 md:gap-8 items-center">
-          <div className="flex flex-col items-center">
-            <h1 className="text-3xl md:text-6xl text-gray-700 text-center max-w-xl mb-0">
-              The <span className=" text-orange-500">ultimate</span> <br></br>
-              Chrome extension tutorial
-            </h1>
-          </div>
+          <div className="flex flex-col items-center">{header}</div>
 
           <div className="text-md md:text-2xl text-gray-500 max-w-xl">
             Building Browser Extensions show you how to build modern Chrome

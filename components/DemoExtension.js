@@ -66,9 +66,9 @@ export default function DemoExtension() {
             </Carousel.Item>
           </Carousel>
         </div>
-        <h1 className="text-3xl bg-white text-blue-500 rounded p-4 w-full border border-blue-500">
+        <h2 className="text-3xl bg-white text-blue-500 rounded p-4 w-full border border-blue-500">
           Example Chrome Extension
-        </h1>
+        </h2>
         <Button
           href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"
           target="_blank"
