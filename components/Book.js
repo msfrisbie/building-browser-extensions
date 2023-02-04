@@ -8,7 +8,7 @@ import reviews from "../public/reviews.png";
 export default function Book() {
   return (
     <div className="flex flex-col items-center">
-      <div className="flex flex-col items-center gap-8 md:gap-12 max-w-lg px-8 text-center">
+      <div className="flex flex-row gap-12 items-center px-8 text-center">
         <div>
           <a
             className="book-container"
@@ -27,7 +27,8 @@ export default function Book() {
               />
             </div>
           </a>
-          <div className="w-full">
+
+          <div className="max-w-xs" style={{ marginTop: "-1rem" }}>
             <Image
               style={{ zIndex: "-1" }}
               src={reviews}
@@ -37,22 +38,32 @@ export default function Book() {
             />
           </div>
         </div>
-        <Button
-          href={AMAZON_PAPERBACK_URL}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="drop-shadow-lg opacity-100 hover:opacity-75 hover:drop-shadow-xl"
-          size="lg"
-          style={{
-            backgroundColor: "rgb(48 201 65)",
-            borderColor: "rgb(48 201 65)",
-          }}
-        >
-          GET IT NOW
-        </Button>{" "}
-        <div className="text-xl">
-          The complete reference for building modern browser extensions in
-          Chrome, Firefox, Edge, and Safari.
+        <div className="flex flex-col gap-8 items-center">
+          <div className="flex flex-col items-center pt-12">
+            <h1 className="text-6xl text-gray-700 text-center">
+              The <span className=" text-orange-500">ultimate</span> <br></br>
+              Chrome extension tutorial
+            </h1>
+          </div>
+
+          <div className="text-2xl text-gray-500">
+            Learn how to build modern Chrome extensions in 2023 <br></br>with
+            in-depth examples and detailed tutorials.
+          </div>
+
+          <Button
+            href={AMAZON_PAPERBACK_URL}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="drop-shadow-lg opacity-100 hover:opacity-75 hover:drop-shadow-xl mt-4"
+            size="lg"
+            style={{
+              backgroundColor: "rgb(48 201 65)",
+              borderColor: "rgb(48 201 65)",
+            }}
+          >
+            GET IT NOW
+          </Button>
         </div>
       </div>
     </div>

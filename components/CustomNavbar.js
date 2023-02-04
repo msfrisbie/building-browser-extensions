@@ -28,8 +28,8 @@ export default function CustomNavbar() {
               <Nav.Link
                 href={AMAZON_PAPERBACK_URL}
                 target="_blank"
-                className="rounded-lg hover:opacity-90 px-3"
-                style={{ backgroundColor: "#fec322", color: "#333333" }}
+                // className="rounded-lg hover:opacity-90 px-3"
+                // style={{ backgroundColor: "#fec322", color: "#333333" }}
               >
                 GET&nbsp;THE&nbsp;BOOK
               </Nav.Link>
@@ -48,7 +48,7 @@ export default function CustomNavbar() {
         </Container>
       </Navbar>
       {/* spacer for navbar at top */}
-      <div className="p-8"></div>
+      {/* <div className="p-8"></div> */}
     </>
   );
 }

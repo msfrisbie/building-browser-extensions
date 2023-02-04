@@ -25,7 +25,7 @@ export default function BlogFooter() {
             </div>
           </a>
           <div className="text-xl text-gray-800">
-            The complete reference for building modern browser extensions in
+            The ultimate tutorial for building modern browser extensions in
             Chrome, Firefox, Edge, and Safari.
           </div>
         </div>
