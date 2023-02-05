@@ -34,7 +34,7 @@ export default function Landing(props) {
           </div>
         </div> */}
 
-        <div className="w-full text-lg pb-16">
+        <div className="w-full text-lg pb-16 px-4">
           <div className="flex flex-col items-center text-start font-light">
             <div className="flex flex-col gap-16 max-w-xl">
               <div className="flex flex-col items-center pt-12">
@@ -74,7 +74,7 @@ export default function Landing(props) {
         </div>
       </div>
 
-      <div className="flex flex-col items-center py-16">
+      <div className="flex flex-col items-center py-16 px-4">
         <div className="flex flex-col items-stretch max-w-md gap-4">
           <Button
             variant="outline-primary"
