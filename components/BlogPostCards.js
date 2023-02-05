@@ -6,6 +6,10 @@ export default function BlogPostCards() {
     <>
       <div className="flex flex-col items-center py-24 md:py-36 px-6">
         <div className="flex flex-col gap-8 font-light max-w-lg text-lg">
+          <h1 className="font-light mb-16 pb-2 w-full text-center border-b border-gray-400 text-gray-400">
+            Blog
+          </h1>
+
           <Link href="/blog/manifest-v3-debacle-signals-a-changing-of-the-guard">
             <Card className="cursor-pointer">
               <Card.Header className="text-xl font-normal roboto-condensed">

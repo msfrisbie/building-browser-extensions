@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { Button } from "react-bootstrap";
 import plasmo from "../public/plasmo.png";
 import Book from "./Book";
 import DemoExtension from "./DemoExtension";
@@ -70,6 +71,10 @@ export default function Landing(props) {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="flex flex-col gap-8 py-16">
+        <Button href="#">10 Things Every Chrome Extension Needs</Button>
       </div>
       {/* </div> */}
 

@@ -8,12 +8,27 @@ import promo3 from "../public/promo3.png";
 import promo4 from "../public/promo4.png";
 import promo5 from "../public/promo5.png";
 
-export default function DemoExtension() {
+export default function DemoExtension(props) {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+
+  let header = (
+    <h2 className="text-3xl bg-white text-blue-500 rounded p-4 w-full border border-blue-500">
+      Example Chrome Extension
+    </h2>
+  );
+
+  if (props.h1) {
+    header = (
+      <h1 className="text-3xl bg-white text-blue-500 rounded p-4 w-full border border-blue-500">
+        Example Chrome Extension
+      </h1>
+    );
+  }
+
   return (
     <div className="flex flex-col items-center">
       <div className="flex flex-col items-center gap-4 md:gap-12 max-w-lg p-8 text-center">
@@ -66,9 +81,7 @@ export default function DemoExtension() {
             </Carousel.Item>
           </Carousel>
         </div>
-        <h2 className="text-3xl bg-white text-blue-500 rounded p-4 w-full border border-blue-500">
-          Example Chrome Extension
-        </h2>
+        {header}
         <Button
           href="https://chrome.google.com/webstore/detail/browser-extension-explore/jnofdoejfipgalklopidpdeofjebihcf"
           target="_blank"

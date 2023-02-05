@@ -1,3 +1,5 @@
+import { AMAZON_PAPERBACK_URL } from "consts";
+
 export default function Footer() {
   return (
     <>
@@ -6,9 +8,67 @@ export default function Footer() {
           "flex flex-col items-center justify-center p-8 text-sm text-gray-300 flex flex-col gap-4"
         }
       >
-        <span>Copyright Matt Frisbie 2023</span>
-
-        <div className="flex flex-col items-center justify-center gap-2 text-xs">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-2 text-xs">
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/blog"
+          >
+            Blog
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/example-chrome-extension"
+          >
+            Example Chrome Extension
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href={AMAZON_PAPERBACK_URL}
+          >
+            Get the book
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="https://mattfriz.com"
+          >
+            About the author
+          </a>
+          <div className="md:col-span-2">
+            <hr />
+          </div>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/blog/manifest-v3-debacle-signals-a-changing-of-the-guard"
+          >
+            Chrome's Manifest V3 Push Signals Changing of the Guard
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/blog/cambrian-explosion-of-chatgpt-browser-extensions"
+          >
+            The Cambrian Explosion of ChatGPT Extensions
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/blog/ten-things-every-chrome-extension-needs"
+          >
+            10 Things Every Chrome Extension Needs
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/blog/what-is-manifest-v3"
+          >
+            What is Manifest v3?
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
+            href="/blog/why-are-browser-extensions-important"
+          >
+            Why are Browser Extensions Important?
+          </a>
+          <div className="md:col-span-2">
+            <hr />
+          </div>
           <a
             className="text-gray-300 no-underline hover:text-gray-500"
             href="/build-chrome-extensions"
@@ -100,6 +160,8 @@ export default function Footer() {
             How to publish Chrome extensions
           </a>
         </div>
+
+        <span>Copyright Matt Frisbie 2023</span>
       </footer>
     </>
   );

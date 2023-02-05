@@ -1,8 +1,7 @@
 import BlogPostCards from "@components/BlogPostCards";
 import Header from "@components/Header";
 
-
-// <ol 
+// <ol
 // <ol class="list-decimal"
 
 // <div class="flex items-center relative text-gray-200 bg-gray-800
