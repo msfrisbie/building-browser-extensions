@@ -23,7 +23,7 @@ export default function Book(props) {
   }
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="md:py-12 flex flex-col items-center">
       <div className="flex flex-col md:flex-row gap-4 md:gap-12 items-center px-4 md:px-8 py-12 text-center">
         <div>
           <a

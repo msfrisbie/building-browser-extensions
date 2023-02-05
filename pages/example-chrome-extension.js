@@ -1,3 +1,4 @@
+import Book from "@components/Book";
 import DemoExtension from "@components/DemoExtension";
 import Header from "@components/Header";
 
@@ -11,8 +12,9 @@ export default function ExampleChromeExtension(props) {
         NPM packages, one click install, 100% HTML/JS/CSS."
       ></Header>
 
-      <div className="pt-32">
+      <div className="pt-24 flex flex-col items-stretch gap-4 md:gap-24">
         <DemoExtension h1={true}></DemoExtension>
+        <Book h2={true}></Book>
       </div>
     </>
   );

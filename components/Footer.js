@@ -23,6 +23,12 @@ export default function Footer() {
           </a>
           <a
             className="text-gray-300 no-underline hover:text-gray-500"
+            href="/table-of-contents"
+          >
+            Table of Contents
+          </a>
+          <a
+            className="text-gray-300 no-underline hover:text-gray-500"
             href={AMAZON_PAPERBACK_URL}
           >
             Get the book
