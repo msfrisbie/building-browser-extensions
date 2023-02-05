@@ -73,9 +73,38 @@ export default function Landing(props) {
         </div>
       </div>
 
-      <div className="flex flex-col gap-8 py-16">
-        <Button href="#">10 Things Every Chrome Extension Needs</Button>
+      <div className="flex flex-col items-center py-16">
+        <div className="flex flex-col items-stretch max-w-md gap-4">
+          <Button
+            variant="outline-primary"
+            href="/blog/manifest-v3-debacle-signals-a-changing-of-the-guard"
+          >
+            Chrome's Manifest V3 Push Signals Changing of the Guard
+          </Button>
+          <Button
+            variant="outline-primary"
+            href="/blog/cambrian-explosion-of-chatgpt-browser-extensions"
+          >
+            The Cambrian Explosion of ChatGPT Extensions
+          </Button>
+          <Button
+            variant="outline-primary"
+            href="/blog/ten-things-every-chrome-extension-needs"
+          >
+            10 Things Every Chrome Extension Needs
+          </Button>
+          <Button variant="outline-primary" href="/blog/what-is-manifest-v3">
+            What is Manifest v3?
+          </Button>
+          <Button
+            variant="outline-primary"
+            href="/blog/why-are-browser-extensions-important"
+          >
+            Why are Browser Extensions Important?
+          </Button>
+        </div>
       </div>
+
       {/* </div> */}
 
       {/* <div className="w-full text-lg">
