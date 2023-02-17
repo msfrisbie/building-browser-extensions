@@ -1,3 +1,5 @@
+import Book from "@components/Book";
+
 export default function BlogPostCards() {
   const posts = [
     {
@@ -50,10 +52,14 @@ export default function BlogPostCards() {
                 <div className="text-xl font-medium text-yellow-400">
                   {postData.title}
                 </div>
-                <div classname="text-sm">{postData.description}</div>
+                <div className="text-sm">{postData.description}</div>
               </a>
             </>
           ))}
+        </div>
+
+        <div className="py-16">
+          <Book h2={true}></Book>
         </div>
       </div>
     </>
