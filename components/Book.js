@@ -27,7 +27,7 @@ export default function Book(props) {
       <div className="flex flex-col md:flex-row gap-4 md:gap-12 items-center px-4 md:px-8 py-12 text-center">
         <div>
           <a
-            className="book-container scale-50 -my-24 md:scale-95"
+            className="book-container scale-50 -my-24 md:scale-75"
             target="_blank"
             rel="noreferrer noopener"
             href={AMAZON_PAPERBACK_URL}
@@ -60,7 +60,7 @@ export default function Book(props) {
           <div className="flex flex-col items-center">{header}</div>
 
           <div className="text-md md:text-2xl text-gray-500 max-w-xl">
-            Building Browser Extensions show you how to build modern Chrome
+            Building Browser Extensions shows you how to build modern Chrome
             extensions in 2023 with in-depth examples and detailed tutorials.
           </div>
 

@@ -39,7 +39,9 @@ export default function CustomNavbar() {
               >
                 EXAMPLE&nbsp;CHROME&nbsp;EXTENSION
               </Nav.Link>
-              <Nav.Link href="/blog">BLOG</Nav.Link>
+              <Nav.Link href="https://mattfrisbie.substack.com" target="_blank">
+                BLOG
+              </Nav.Link>
               <Nav.Link href="https://mattfriz.com" target="_blank">
                 AUTHOR
               </Nav.Link>

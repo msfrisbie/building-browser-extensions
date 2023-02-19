@@ -14,9 +14,8 @@ module.exports = {
         permanent: false,
       },
       {
-        source: "/blog/manifest-v3-debacle-signals-a-changing-of-the-guard",
-        destination:
-          "/blog/chromes-manifest-v3-push-signals-changing-of-the-guard",
+        source: "/blog/:path*",
+        destination: "https://mattfrisbie.substack.com",
         permanent: false,
       },
     ];
