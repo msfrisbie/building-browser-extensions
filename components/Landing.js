@@ -33,6 +33,20 @@ export default function Landing(props) {
             </div>
           </div>
         </div> */}
+        <div className="w-full text-lg px-4">
+          <div className="flex flex-col items-center text-center font-light">
+            <div className="flex flex-col gap-8 pb-16 max-w-xl">
+              <div className="text-2xl">
+                <span className="font-medium">"Massively useful</span> for
+                bootstrapping my knowledge. <br></br>Thank you for the great
+                book!"
+              </div>
+              <div className="text-lg italic text-gray-700">
+                James Tamplin, CEO and Co-Founder of Firebase
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="w-full text-lg pb-16 px-4">
           <div className="flex flex-col items-center text-start font-light">
@@ -78,30 +92,38 @@ export default function Landing(props) {
         <div className="flex flex-col items-stretch max-w-md gap-4">
           <Button
             variant="outline-primary"
-            href="/blog/manifest-v3-debacle-signals-a-changing-of-the-guard"
+            href="https://mattfrisbie.substack.com/p/software-engineering-radio-episode"
+            target="_blank"
+          >
+            SE Radio Episode 552: Matt Frisbie on Browser Extensions
+          </Button>
+          <Button
+            variant="outline-primary"
+            href="https://mattfrisbie.substack.com/p/spy-chrome-extension"
+            target="_blank"
+          >
+            Let's Build a Chrome Extension that Steals Everything
+          </Button>
+          <Button
+            variant="outline-primary"
+            href="https://mattfrisbie.substack.com/p/chrome-manifest-v3-push"
+            target="_blank"
           >
             Chrome's Manifest V3 Push Signals Changing of the Guard
           </Button>
           <Button
             variant="outline-primary"
-            href="/blog/cambrian-explosion-of-chatgpt-browser-extensions"
+            href="https://mattfrisbie.substack.com/p/cambrian-explosion-of-chatgpt-chrome-extensions"
+            target="_blank"
           >
             The Cambrian Explosion of ChatGPT Extensions
           </Button>
           <Button
             variant="outline-primary"
-            href="/blog/ten-things-every-chrome-extension-needs"
+            href="https://mattfrisbie.substack.com/p/10-things-every-chrome-extension-needs"
+            target="_blank"
           >
             10 Things Every Chrome Extension Needs
-          </Button>
-          <Button variant="outline-primary" href="/blog/what-is-manifest-v3">
-            What is Manifest v3?
-          </Button>
-          <Button
-            variant="outline-primary"
-            href="/blog/why-are-browser-extensions-important"
-          >
-            Why are Browser Extensions Important?
           </Button>
         </div>
       </div>

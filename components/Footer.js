@@ -39,7 +39,7 @@ export default function Footer() {
           >
             About the author
           </a>
-          <div className="md:col-span-2">
+          {/* <div className="md:col-span-2">
             <hr />
           </div>
           <a
@@ -71,7 +71,7 @@ export default function Footer() {
             href="/blog/why-are-browser-extensions-important"
           >
             Why are Browser Extensions Important?
-          </a>
+          </a> */}
           <div className="md:col-span-2">
             <hr />
           </div>
